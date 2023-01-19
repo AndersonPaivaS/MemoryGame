@@ -1,4 +1,4 @@
-import { HashRouter, Routes, Route, Link } from 'react-router-dom'
+import { HashRouter, Routes, Route } from 'react-router-dom'
 
 import Game from './components/Game'
 import Login from './components/Login'
@@ -11,9 +11,6 @@ function App() {
     <div className="App">
       <MemoryGameProvider>
         <HashRouter>
-
-          <Link to="/" > Login </Link>
-          <Link to="/home" > Home </Link>
 
           <Routes>
               <Route path="/" element={<Login /> } />

@@ -1,5 +1,9 @@
 :root {
-  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+html {
+  font-size: 62.5%;
 }
 
 body {
