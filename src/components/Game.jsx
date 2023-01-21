@@ -68,7 +68,7 @@ export default function Game() {
                 id={index}
                 className={styles.front}>
                 <img
-                  src={`/${item.name}.svg`}
+                  src={`/icons/${item.name}.png`}
                   onClick={(e) => turnCard(e.target.id)}
                   id={index}
                   alt={`${item.name}`} />
@@ -83,7 +83,7 @@ export default function Game() {
               :
 
               <div onClick={(e) => turnCard(e.target.id)} id={index} className={styles.back}>
-                  <img src={`/javascript.svg`} onClick={(e) => turnCard(e.target.id)} id={index} alt="JavaScript" />
+                  <img src={`/icons/javascript.png`} onClick={(e) => turnCard(e.target.id)} id={index} alt="JavaScript" />
               </div>}
           </div>
         ))}
