@@ -15,23 +15,23 @@ export default function Login() {
       <main>
 
             <div>
-              <img src="/icons/react.svg" alt="Logo React" />
+              <div> <img src="/react.svg" alt="" /> </div>
               <button onClick={(e) => addItems(e)} name="react" > Adicionar </button>
             </div>
 
 
             <div>
-              <img src="/icons/svelte.svg" alt="Logo Svelte" />
+              <img src="/svelte.svg" alt="Logo Svelte" />
               <button  onClick={(e) => addItems(e)} name="svelte" > Adicionar </button>
             </div>
 
             <div>
-              <img src="/icons/angular.svg" alt="Logo Angular" />
+              <img src="/angular.svg" alt="Logo Angular" />
               <button  onClick={(e) => addItems(e)} name="angular" > Adicionar </button>
             </div>
 
             <div>
-              <img src="/icons/vue.svg" alt="Logo Vue" />
+              <img src="/vue.svg" alt="Logo Vue" />
               <button  onClick={(e) => addItems(e)} name="vue" > Adicionar </button>
             </div>
         
@@ -41,7 +41,7 @@ export default function Login() {
         <h2> ITENS SELECIONADOS </h2>
         <div className={styles.selectedItems}>
           {items.map((item) => (
-            <img src={`/icons/${item.name}.svg`} alt="" />
+            <img src={`/${item.name}.svg`} alt="" />
           ))}
         </div>
         <div className={styles.divButtons}>

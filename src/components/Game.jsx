@@ -36,7 +36,7 @@ export default function Game() {
           cardIndex[oneId] = false
           setIsReveled(cardIndex)
           setFinishGame(true)
-        }, 2000)
+        }, 1000)
       
         setOneCard([''])
         setTwoCard([''])
@@ -68,7 +68,7 @@ export default function Game() {
                 id={index}
                 className={styles.front}>
                 <img
-                  src={`/icons/${item.name}.svg`}
+                  src={`/${item.name}.svg`}
                   onClick={(e) => turnCard(e.target.id)}
                   id={index}
                   alt={`${item.name}`} />
@@ -83,7 +83,7 @@ export default function Game() {
               :
 
               <div onClick={(e) => turnCard(e.target.id)} id={index} className={styles.back}>
-                  <img src={`/icons/javascript.svg`} onClick={(e) => turnCard(e.target.id)} id={index} alt="JavaScript" />
+                  <img src={`/javascript.svg`} onClick={(e) => turnCard(e.target.id)} id={index} alt="JavaScript" />
               </div>}
           </div>
         ))}
