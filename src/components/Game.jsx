@@ -68,7 +68,7 @@ export default function Game() {
                 id={index}
                 className={styles.front}>
                 <img
-                  src={`/icons/${item.name}.png`}
+                  src={`https://github.com/AndersonPaivaS/MemoryGame/raw/main/public/icons/${item.name}.png`}
                   onClick={(e) => turnCard(e.target.id)}
                   id={index}
                   alt={`${item.name}`} />
@@ -83,7 +83,7 @@ export default function Game() {
               :
 
               <div onClick={(e) => turnCard(e.target.id)} id={index} className={styles.back}>
-                  <img src={`https://github.com/AndersonPaivaS/MemoryGame/tree/main/public/icons/javascript.png`} onClick={(e) => turnCard(e.target.id)} id={index} alt="JavaScript" />
+                  <img src={`https://github.com/AndersonPaivaS/MemoryGame/raw/main/public/icons/javascript.png`} onClick={(e) => turnCard(e.target.id)} id={index} alt="JavaScript" />
               </div>}
           </div>
         ))}
