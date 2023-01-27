@@ -15,23 +15,23 @@ export default function Login() {
       <main>
 
             <div>
-              <div> <img src="/icons/react.png" alt="Logo React" /> </div>
+              <div> <img src="https://github.com/AndersonPaivaS/MemoryGame/raw/main/public/icons/react.png" alt="Logo React" /> </div>
               <button onClick={(e) => addItems(e)} name="react" > Adicionar </button>
             </div>
 
 
             <div>
-              <img src="/icons/svelte.png" alt="Logo Svelte" />
+              <img src="https://github.com/AndersonPaivaS/MemoryGame/raw/main/public/icons/svelte.png" alt="Logo Svelte" />
               <button  onClick={(e) => addItems(e)} name="svelte" > Adicionar </button>
             </div>
 
             <div>
-              <img src="/icons/angular.png" alt="Logo Angular" />
+              <img src="https://github.com/AndersonPaivaS/MemoryGame/raw/main/public/icons/angular.png" alt="Logo Angular" />
               <button  onClick={(e) => addItems(e)} name="angular" > Adicionar </button>
             </div>
 
             <div>
-              <img src="/icons/vue.png" alt="Logo Vue" />
+              <img src="https://github.com/AndersonPaivaS/MemoryGame/raw/main/public/icons/vue.png" alt="Logo Vue" />
               <button  onClick={(e) => addItems(e)} name="vue" > Adicionar </button>
             </div>
         
@@ -41,7 +41,7 @@ export default function Login() {
         <h2> ITENS SELECIONADOS </h2>
         <div className={styles.selectedItems}>
           {items.map((item) => (
-            <img src={`/icons/${item.name}.png`} alt="" />
+            <img src={`https://github.com/AndersonPaivaS/MemoryGame/raw/main/public/icons/${item.name}.png`} alt="" />
           ))}
         </div>
         <div className={styles.divButtons}>
