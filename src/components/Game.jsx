@@ -83,7 +83,7 @@ export default function Game() {
               :
 
               <div onClick={(e) => turnCard(e.target.id)} id={index} className={styles.back}>
-                  <img src={`/icons/javascript.png`} onClick={(e) => turnCard(e.target.id)} id={index} alt="JavaScript" />
+                  <img src={`https://github.com/AndersonPaivaS/MemoryGame/tree/main/public/icons/javascript.png`} onClick={(e) => turnCard(e.target.id)} id={index} alt="JavaScript" />
               </div>}
           </div>
         ))}
